@@ -6,7 +6,7 @@ int pos_target = 90;
 int pinNum = D4;
 
 void setup() {
-  myservo.attach(pinNum);  // 控制线连接数字4
+  myservo.attach(pinNum);  // 控制线连接数字D4
 }
 
 void loop() {
